@@ -1,8 +1,11 @@
 import React from 'react'
+import Footer from './Footer'
+import Header from './Header'
 
 function Service() {
   return (
-      <>
+     <>
+      <Header/>
       <div id="service"  className="service">
          <div className="container">
             <div className="row">
@@ -39,9 +42,8 @@ function Service() {
                </div>
             </div>
          </div>
-      </div>
-      
-      
+        </div>
+        <Footer/>
       </>
   )
 }

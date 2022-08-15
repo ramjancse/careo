@@ -1,8 +1,11 @@
 import React from 'react'
+import Footer from './Footer'
+import Header from './Header'
 
 function Customer() {
   return (
-      <>
+     <>
+        <Header/>
       <div id="customer" className="customer">
          <div className="container">
             <div className="row">
@@ -67,7 +70,8 @@ function Customer() {
                </a>
             </div>
          </div>
-      </div>     
+        </div> 
+      <Footer/>  
       </>
   )
 }

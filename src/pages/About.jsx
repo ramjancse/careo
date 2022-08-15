@@ -1,8 +1,11 @@
 import React from 'react'
+import Footer from './Footer'
+import Header from './Header'
 
 function About() {
   return (
-      <>
+     <>
+       <Header/> 
       <div id="about"  className="about">
          <div className="container">
             <div className="row">
@@ -15,7 +18,8 @@ function About() {
                </div>
             </div>
          </div>
-      </div>
+        </div>
+        <Footer/>
     </>
   )
 }
